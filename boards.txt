@@ -558,6 +558,19 @@ Disco.menu.pnum.DISCO_F100RB.build.product_line=STM32F100xB
 Disco.menu.pnum.DISCO_F100RB.build.variant=DISCO_F100RB
 Disco.menu.pnum.DISCO_F100RB.build.cmsis_lib_gcc=arm_cortexM3l_math
 
+# DISCO_STM32F3 board
+Disco.menu.pnum.DISCO_STM32F3=STM32F3DISCOVERY
+Disco.menu.pnum.DISCO_STM32F3.node="No_mass_storage_for_this_board_Use_STLink_upload_method"
+Disco.menu.pnum.DISCO_STM32F3.upload.maximum_size=262144
+Disco.menu.pnum.DISCO_STM32F3.upload.maximum_data_size=40960
+Disco.menu.pnum.DISCO_STM32F3.build.mcu=cortex-m4
+Disco.menu.pnum.DISCO_STM32F3.build.flags.fp=-mfpu=fpv4-sp-d16 -mfloat-abi=hard
+Disco.menu.pnum.DISCO_STM32F3.build.board=DISCO_STM32F3
+Disco.menu.pnum.DISCO_STM32F3.build.series=STM32F3xx
+Disco.menu.pnum.DISCO_STM32F3.build.product_line=STM32F303xC
+Disco.menu.pnum.DISCO_STM32F3.build.variant=DISCO_STM32F3
+Disco.menu.pnum.DISCO_STM32F3.build.cmsis_lib_gcc=arm_cortexM4lf_math
+
 # DISCO_F407VG board
 Disco.menu.pnum.DISCO_F407VG=STM32F407G-DISC1
 Disco.menu.pnum.DISCO_F407VG.node=DIS_F407VG
