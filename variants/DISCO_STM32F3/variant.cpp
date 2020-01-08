@@ -70,6 +70,14 @@ const PinName digitalPin[] = {
   PB_2,  //D32 - BOOT1
   PA_13, //D33 - SWDI0
   PA_14, //D34 - SWCLK
+  PE_15,
+  PE_14,
+  PE_13,
+  PE_12,
+  PE_11,
+  PE_10,
+  PE_9,
+  PE_8
 };
 
 #ifdef __cplusplus

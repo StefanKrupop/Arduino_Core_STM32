@@ -77,16 +77,32 @@ extern "C" {
 #define PB2  32 // BOOT1
 #define PA13 33 // SWDI0
 #define PA14 34 // SWCLK
+// LEDs
+#define PE15 35
+#define PE14 36
+#define PE13 37
+#define PE12 38
+#define PE11 39
+#define PE10 40
+#define PE9  41
+#define PE8  42
 
 // This must be a literal
-#define NUM_DIGITAL_PINS        35
+#define NUM_DIGITAL_PINS        43
 // This must be a literal with a value less than or equal to to MAX_ANALOG_INPUTS
 #define NUM_ANALOG_INPUTS       10
 #define NUM_ANALOG_FIRST        20
 
 // On-board LED pin number
-#define LED_BLUE                PC13
-#define LED_BUILTIN             LED_BLUE
+#define LED_WEST                PE15
+#define LED_SOUTH_WEST          PE14
+#define LED_SOUTH               PE13
+#define LED_SOUTH_EAST          PE12
+#define LED_EAST                PE11
+#define LED_NORTH_EAST          PE10
+#define LED_NORTH               PE9
+#define LED_NORTH_WEST          PE8
+#define LED_BUILTIN             LED_NORTH
 
 // SPI Definitions
 #define PIN_SPI_SS              PA4
